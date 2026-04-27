@@ -48,8 +48,9 @@ if was_late:
 # If extra credit was completed:
 # - add 5 to final_score
 # - set message to "Extra credit applied."
-
-
+if extra_credit_completed:
+    final_score = final_score + EXTRA_CREDIT_BONUS
+    message = "Extra credit applied."
 
 
 # ------------------------------------------------------------
