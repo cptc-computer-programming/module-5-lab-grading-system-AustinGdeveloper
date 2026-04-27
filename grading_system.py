@@ -69,6 +69,10 @@ if extra_credit_completed:
 # Else:
 # - leave final_score unchanged
 
+if score > 100:
+    final_score = 100
+elif final_score < 0
+    final_score = 0
 
 
 
@@ -85,6 +89,16 @@ if extra_credit_completed:
 # 60 or above: D
 # Below 60: F
 
+if final_score >= 90
+    letter_grade = "A"
+elif final_score >= 80:
+    letter_grade = "B"
+elif final_score >= 70
+    letter_grade = "C"
+elif final_score >= 60
+    letter_grade = "D"
+else:
+    letter_grade = "F"
 
 
 
